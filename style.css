@@ -1,0 +1,113 @@
+/* Website Styles */
+
+* {
+  font-size: 100%;
+  line-height: 1;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+body {
+  background-color: brown;
+  color: white;
+  font-family: "Baloo Bhai";
+  font-size: 26px;
+  margin: 20px
+}
+
+header, section, footer {
+  padding: 20px;
+  margin: 10px;
+  background-color: green
+}
+
+header {
+  color: white;
+  /* border-bottom: 10px dashed red; */
+}
+
+section {
+  /* border: 10px ridge brown; */
+  margin: 30px;
+  padding: 30px;
+}
+
+footer {
+  color: white;
+}
+
+footer p {
+  font-size: 13px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  font-style: italic;
+  font-family: "Baloo Bhai";
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: left;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 20px
+}
+
+h2  {
+  font-size:  50px;
+}
+
+h3  {
+  font-size:  24px;
+}
+
+p {
+  line-height:  2;
+  /* longhand writing */
+  margin-top: 15px 0;
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+/* shorthand - same as above */
+  margin: 15px 0
+}
+
+ul, ol {
+  margin: 15px 0;
+}
+
+a:link, a:focus, a:visited {
+    color: pink;
+    text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: purple;
+}
+
+img {
+  width: 50%
+  height: 50%;
+}
+
+.title {
+  font-size: 48px;
+  text-decoration: underline;
+}
+
+.title-2 {
+  color: yellow;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
