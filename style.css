@@ -9,6 +9,8 @@
 }
 
 body {
+  background-image: url(images/morocco.png);
+  /* background-repeat: no-repeat;  */
   background-color: brown;
   color: white;
   font-family: "Baloo Bhai";
@@ -18,7 +20,7 @@ body {
 
 header, section, footer {
   padding: 20px;
-  margin: 10px;
+  margin: 10px 0;
   background-color: green
 }
 
@@ -27,10 +29,11 @@ header {
   /* border-bottom: 10px dashed red; */
 }
 
+
 section {
   /* border: 10px ridge brown; */
-  margin: 30px;
-  padding: 30px;
+  margin: 50px;
+  padding: 50px;
 }
 
 footer {
@@ -110,4 +113,18 @@ img {
 .container {
   max-width: 1500px;
   margin: 0 auto;
+}
+
+.banner {
+  height: 350px;
+  background-image: url(images/early-days-gitselasu-dancers-small.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner p {
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  padding-top: 140px;
 }
